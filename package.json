@@ -1,0 +1,25 @@
+{
+    "name": "magix-tmpl",
+    "displayName": "magix-tmpl",
+    "description": "magix template syntax",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "mxtpl",
+            "aliases": ["mxtpl", "mxtpl"],
+            "extensions": [".tpl"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "mxtpl",
+            "scopeName": "source.tpl",
+            "path": "./syntaxes/mxtpl.tmLanguage.json"
+        }]
+    }
+}
